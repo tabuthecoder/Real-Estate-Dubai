@@ -1,0 +1,37 @@
+# SSDT SQL project ignore
+bin/
+obj/
+*.dacpac
+*.publish.xml
+*.dbmdl
+*.sqlcmdvars
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.bak
+*.log
+
+# Node / Frontend
+vendor/
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
